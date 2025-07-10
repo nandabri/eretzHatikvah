@@ -25,9 +25,9 @@ Site multilíngue para a empresa de turismo "Eretz Hatikvah Tours", especializad
 - Suporte a acessibilidade
 
 ### 📱 Responsividade
-- Desktop (1200px+)
-- Tablet (768px - 1199px)
-- Mobile (até 767px)
+- Desktop 
+- Tablet 
+- Mobile 
 
 ## Tours Oferecidos
 
@@ -43,30 +43,18 @@ Site multilíngue para a empresa de turismo "Eretz Hatikvah Tours", especializad
 ### Frontend
 - **HTML5** - Estrutura semântica
 - **CSS3** - Estilos, animações e responsividade
-<<<<<<< HEAD
 
 ## Compatibilidade
 
 ### Navegadores Suportados
-- Chrome 80+
-- Firefox 75+
-- Safari 13+
-- Edge 80+
-=======
-- **JavaScript ES6+** - Funcionalidades interativas
-- **Font Awesome 6** - Ícones vetoriais
-- **Google Fonts** - Tipografia (Heebo para hebraico, Roboto para outras línguas)
-
-## Como Usar
-
-1. **Abrir o site**: Abra `index.html` em qualquer navegador moderno
-2. **Alternar idiomas**: Use os botões no canto superior direito
-3. **Navegar**: Clique nos links do menu para navegar suavemente
-4. **Contato**: Use o formulário na seção de contato
+- Chrome 
+- Firefox 
+- Safari 
+- Edge 
 
 ## Licença
 
-© 2025 Eretz Hatikvah Tours. Todos os direitos reservados.
+© 2025 All rights reserved | Designed and developed by Fernanda Belmont
 
 ## Contato para Desenvolvimento
 
