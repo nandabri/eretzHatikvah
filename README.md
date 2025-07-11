@@ -2,7 +2,7 @@
 
 ## Description
 Multilingual website for the tourism company **“Eretz Hatikvah Tours”**, specializing in spiritual and cultural tours in the Holy Land. The site offers full support for three languages: Hebrew, English, and Portuguese.
-👉 [**Visit here**](https://nandabri.github.io/MindEasy/)
+👉 [**Visit here**]([https://nandabri.github.io/eretzHatikvah/](https://nandabri.github.io/eretzHatikvah/))
 
 ## Features
 
