@@ -1,0 +1,168 @@
+/* Navegação Voltar para o site */
+.voltar-nav {
+    margin: 24px 0 0 24px;
+}
+
+.voltar-link {
+    color: #0a1a5e;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #0256a4 0%, #00336a 100%);
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 16px rgba(81, 167, 249, 0.15);
+    transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+    letter-spacing: 0.5px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: linear-gradient(90deg, #007bff 0%, #51a7f9 100%);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.18);
+    transform: scale(1.03);
+}
+
+/* Estilo específico para a página de contato */
+body.contato-bg {
+    min-height: 100vh;
+    background: linear-gradient(120deg, rgba(0, 18, 152, 0.7) 0%, rgba(0, 0, 0, 0.5) 100%), url('israel-jerusalem-cityscape-with-dome-of-the-rock-2024-09-19-03-52-03-utc.jpg') center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* style.css - estilos base para Eretz Hatikvah Tours */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background: #f7f7fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    color: #0a1a5e;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.btn {
+    background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+    color: #fff;
+    padding: 13px 13px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.08rem;
+    box-shadow: 0 4px 16px rgba(255, 152, 0, 0.15);
+    transition: all 0.3s cubic-bezier(.4, 0, .2, 1);
+    letter-spacing: 0.5px;
+}
+
+.btn:hover {
+    background: #007bff;
+    box-shadow: 0 4px 16px rgba(0, 123, 255, 0.18);
+    transform: scale(1.03);
+}
+
+input,
+textarea,
+select {
+    padding: 14px 16px;
+    border: 1.5px solid #d0d7e2;
+    border-radius: 8px;
+    font-size: 1.08rem;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.04);
+    margin-bottom: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.12);
+}
+
+.contact-container {
+    max-width: 500px;
+    margin: 50px auto 40px auto;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 18px;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.18);
+    padding: 36px 32px 28px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container h2 {
+    font-size: 2rem;
+    margin-bottom: 18px;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.10);
+}
+
+.contact-container p {
+    font-size: 1.08rem;
+    margin-bottom: 22px;
+    text-align: center;
+    opacity: 0.85;
+}
+
+.contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+@media (max-width: 768px) {
+    .contact-container {
+        width: 100vh;
+        padding: 18px 18px 18px 18px;
+        margin: 300px;
+        border-radius: 8;
+        box-shadow: none;
+        background: rgba(255,255,255,0.7);
+    }
+
+    .contact-form button {
+        font-size: 1.5rem;
+        padding: 11px 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
