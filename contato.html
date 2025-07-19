@@ -2,25 +2,55 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Contato | Eretz Hatikvah Tours</title>
-    <link rel="stylesheet" href="contact.css">
-    <link rel="icon" href="eretzHatikvah.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="icon" href="eretzHatikvah.jpeg" type="image/x-icon" />
 </head>
 
 <body class="contato-bg">
+    <header>
+        <div class="container">
+            <img src="Eretz Hatikvah Tourslogo.png" alt="logo Eretz Hatikvah" class="logo">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Tours </a></li>
+                    <li><a href="#">Destinos</a>
+                        <ul class="submenu">
+                            <li><a href="#">Destino 1</a></li>
+                            <li><a href="#">Destino 2</a></li>
+                            <li><a href="#">Destino 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pacotes</a></li>
+                    <li><a href="#">Sobre </a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="buttons">
+                <button class="btn btn-primary">Reserve Agora!</button>
+                <button class="btn btn-secondary">☀️</button>
+            </div>
+        </div>
+    </header>
     <nav class="voltar-nav">
         <a href="index.html" class="voltar-link">&larr; Voltar para o site</a>
     </nav>
+
     <div class="contact-container">
         <h2>Fale Conosco</h2>
         <p>Tem dúvidas, sugestões ou quer planejar sua viagem? Preencha o formulário abaixo e nossa equipe entrará em
             contato!</p>
-        <form class="contact-form">
-            <input type="text" name="nome" placeholder="Seu nome" required>
-            <input type="email" name="email" placeholder="Seu e-mail" required>
-            <input type="tel" name="telefone" placeholder="Telefone (opcional)">
-            <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+
+        <form class="contact-form" action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+
+            <input type="email" id="email" name="email" placeholder="Seu e-mail" required />
+
+            <input type="tel" id="telefone" name="telefone" placeholder="Telefone (opcional)" />
+
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+
             <button type="submit">Enviar Mensagem</button>
         </form>
     </div>
